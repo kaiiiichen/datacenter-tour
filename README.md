@@ -43,7 +43,7 @@ Tour mode can **auto-open the verification sidebar once** when you first enter C
 
 - [Next.js 16](https://nextjs.org/) (App Router)
 - [React Three Fiber](https://r3f.docs.pmnd.rs/) + [drei](https://github.com/pmndrs/drei) + [postprocessing](https://github.com/pmndrs/react-postprocessing)
-- [Tailwind CSS v4](https://tailwindcss.com/) + [framer-motion](https://www.framer.com/motion/)
+- [Tailwind CSS 4](https://tailwindcss.com/) + [framer-motion](https://www.framer.com/motion/)
 - [Zustand](https://github.com/pmndrs/zustand) for app state
 - Procedural geometry only — no bundled GLTFs
 
@@ -102,7 +102,7 @@ src/
 - Buttons have `aria-label`s where needed
 - Captions and detail copy are DOM text
 
-## Roadmap (v2 ideas)
+## Roadmap
 
 - Voice-over synced to captions
 - Detail mini-scenes (e.g. single die zoom)

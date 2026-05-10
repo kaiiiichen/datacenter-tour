@@ -19,12 +19,12 @@ type ApiCall = {
 };
 
 const CALLS: ApiCall[] = [
-  { ts: "12:14:01", principal: "alice@anthropic", action: "POST", resource: "/v1/clusters/c-9/jobs", meter: "+1024 GPU·h" },
-  { ts: "12:14:03", principal: "alice@anthropic", action: "GET ", resource: "/v1/clusters/c-9/jobs/j-91234" },
-  { ts: "12:14:09", principal: "frank@cust42", action: "POST", resource: "/v1/objects/training-set-7", meter: "+812 GiB" },
-  { ts: "12:14:14", principal: "alice@anthropic", action: "PATCH", resource: "/v1/jobs/j-91234/scale", meter: "→ 2048 GPUs" },
-  { ts: "12:14:21", principal: "carol@evals", action: "POST", resource: "/v1/inference/batch", meter: "+8 GPU·h" },
-  { ts: "12:14:28", principal: "audit@regulator", action: "GET ", resource: "/v1/billing/invoices/2026-04" },
+  { ts: "12:14:01", principal: "alice@anthropic", action: "POST", resource: "/clusters/c-9/jobs", meter: "+1024 GPU·h" },
+  { ts: "12:14:03", principal: "alice@anthropic", action: "GET ", resource: "/clusters/c-9/jobs/j-91234" },
+  { ts: "12:14:09", principal: "frank@cust42", action: "POST", resource: "/objects/training-set-7", meter: "+812 GiB" },
+  { ts: "12:14:14", principal: "alice@anthropic", action: "PATCH", resource: "/jobs/j-91234/scale", meter: "→ 2048 GPUs" },
+  { ts: "12:14:21", principal: "carol@evals", action: "POST", resource: "/inference/batch", meter: "+8 GPU·h" },
+  { ts: "12:14:28", principal: "audit@regulator", action: "GET ", resource: "/billing/invoices/2026-04" },
 ];
 
 export function CloudBillingLayer() {

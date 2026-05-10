@@ -33,7 +33,7 @@ export const LAYERS: LayerMeta[] = [
     sections: [
       {
         heading: "What the operator sees",
-        body: "A relational database of every component: GPU model, serial, MAC, NVLink fabric ID, host UUID, rack and slot, install date, firmware versions. Most operators reconcile this against a physical asset scan and the cloud control plane.",
+        body: "A relational database of every component: GPU model, serial, MAC, NVLink fabric ID, host UUID, rack and slot, install date, firmware builds. Most operators reconcile this against a physical asset scan and the cloud control plane.",
       },
       {
         heading: "Why it matters for verification",
@@ -352,7 +352,7 @@ export const LAYERS: LayerMeta[] = [
     sections: [
       {
         heading: "What is captured",
-        body: "Kernel version, OS image hash, running processes, cgroup memberships, container image digests, mounted volumes, network namespaces. eBPF and the Linux audit subsystem can export this in real time.",
+        body: "Kernel build, OS image hash, running processes, cgroup memberships, container image digests, mounted volumes, network namespaces. eBPF and the Linux audit subsystem can export this in real time.",
       },
       {
         heading: "Why it matters for verification",

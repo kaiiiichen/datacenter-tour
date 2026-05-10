@@ -21,7 +21,12 @@ const FREE_TARGETS: Record<string, { position: [number, number, number]; target:
   cooling: { position: [34, 16, 36], target: [22, 4, 6], fov: 36 },
   hall: { position: [0, 22, 22], target: [0, 3, -2], fov: 38 },
   rack: { position: [-3.5, 4.2, 5.5], target: [0, 1.8, -2], fov: 32 },
-  node: { position: [2.5, 3.6, 1.6], target: [0.0, 3.05, -1.5], fov: 26 },
+  /** Tray + NVLink: pulled back ~2× vs old shot so the tray reads in rack context */
+  node: {
+    position: [6.2, 5.4, 5.2],
+    target: [0, 3.08, -1.65],
+    fov: 36,
+  },
   network: { position: [0, 16, 18], target: [0, 6, -10], fov: 38 },
   storage: { position: [22, 8, 18], target: [16, 3, -8], fov: 36 },
 };

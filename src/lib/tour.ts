@@ -69,9 +69,9 @@ export const TOUR_STOPS: CameraStop[] = [
   {
     kind: "module",
     id: "node",
-    position: [2.5, 3.6, 1.6],
-    target: [0.0, 3.05, -1.5],
-    fov: 26,
+    position: [6.2, 5.4, 5.2],
+    target: [0.0, 3.08, -1.65],
+    fov: 36,
     dwellMs: 7000,
     transitionMs: 2400,
     caption:

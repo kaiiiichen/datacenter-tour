@@ -52,7 +52,7 @@ export type UiDictionary = {
 
 const EN: UiDictionary = {
   appTitle: "Inside an AI Data Center",
-  appSubtitle: "An interactive 3D walkthrough · v1",
+  appSubtitle: "An interactive 3D walkthrough",
   tour: "Tour",
   free: "Free",
   language: "Language",
@@ -109,7 +109,7 @@ const EN: UiDictionary = {
 
 const ZH: UiDictionary = {
   appTitle: "走进 AI 数据中心",
-  appSubtitle: "交互式 3D 导览 · v1",
+  appSubtitle: "交互式 3D 导览",
   tour: "导览",
   free: "自由",
   language: "语言",

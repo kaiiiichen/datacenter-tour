@@ -17,7 +17,7 @@ export const LAYERS_ZH: Record<LayerMeta["id"], LayerMeta> = {
     sections: [
       {
         heading: "运营看见什么",
-        body: "每张 GPU 型号、序列、MAC、NVLink ID、主机 UUID、机柜槽位、上架时间、固件版本；多与资产扫描及控制面对账。",
+        body: "每张 GPU 型号、序列、MAC、NVLink ID、主机 UUID、机柜槽位、上架时间、固件 build；多与资产扫描及控制面对账。",
       },
       {
         heading: "对可验证的意义",
@@ -245,7 +245,7 @@ export const LAYERS_ZH: Record<LayerMeta["id"], LayerMeta> = {
     sections: [
       {
         heading: "捕获什么",
-        body: "内核版本、镜像 digest、进程、cgroup、挂载卷、eBPF/audit 实时导出。",
+        body: "内核 build、镜像 digest、进程、cgroup、挂载卷、eBPF/audit 实时导出。",
       },
       {
         heading: "与可验证关系",

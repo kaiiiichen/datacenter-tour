@@ -27,7 +27,6 @@ function AttestationPanel() {
         </div>
         <pre className="at-quote">
 {`{
-  "quote_version": 4,
   "tcb": {
     "vbios":     "94.04.4F.00.21",
     "driver":    "555.42.06-cc",
